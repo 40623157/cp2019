@@ -9,6 +9,34 @@
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
 <p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<h1>Wed</h1>
+<p><a href="http://mde.tw/cp2019/content/index.html"><span></span></a></p>
+<ul>
+<li>2019 Fall Computer aided design</li>
+</ul>
+<p><a href="http://mde.tw/cad2019/content/index.html">http://mde.tw/cad2019/content/index.html</a></p>
+<ul>
+<li>2019 Fall Computer program</li>
+</ul>
+<p><a href="http://mde.tw/cp2019/content/index.html">http://mde.tw/cp2019/content/index.html</a></p>
+<ul>
+<li>youtube</li>
+</ul>
+<p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g/videos">https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g/videos</a></p>
+<ul>
+<li>Dartpad       <a href="https://mde.tw/dartpad/">https://mde.tw/dartpad/</a></li>
+</ul>
+<h1>亂數分組</h1>
+<p><span> 上課第一週即進行學員亂數分組</span></p>
+<p>流程圖符號說明</p>
+<p><img alt="" height="495" src="/images/6666666666666.png" width="357"/></p>
+<p>基本流程:</p>
+<p>1.獲得班級修課成員名單</p>
+<p>2.決定各組人數</p>
+<p>3.弄亂成員學號資料的次序</p>
+<p>4.決定好每組幾人, 從頭開始分組, 以確定各組成員</p>
+<p>5.若最後一組人數過少, 將分別依序捕到前述已經分組的組別中</p>
+<p>6.在課程加退選階段結束後, 不排除重新分組</p>
 <h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
@@ -31,14 +59,19 @@
 <p>theme - 宣告所要引用的頁面顏色主題, 設為 dark 表示使用暗色系頁面.</p>
 <p>run - 設為 true 表示頁面引用後, 程式直接執行</p>
 <h1>Q＆A</h1>
-<p>Q：使用python開近端時，flaskapp.py出現錯誤</p>
+<p>Q1：使用python開近端時，flaskapp.py出現錯誤</p>
 <p><img alt="" height="151" src="/images/2.png" width="646"/></p>
 <p><img alt="" height="28" src="/images/1.png" width="348"/></p>
 <p>A：使用pip install -U flask-cors安裝模組.</p>
 <p></p>
+<p><span><span><span>Q2 : 無法執行ffmpeg</span></span></span></p>
+<p>A1 : ffmpeg.exe 複製一份, 放到 y:即可在命令列任何地方執行 ffmpeg 指令.</p>
+<p><span><span><span>A2 : 將已經存在隨身碟的 ffmpeg.exe, 所在目錄放入 path 命令搜尋路徑之中.</span></span></span></p>
+<p><span><span><span>Q3 : 如何在Dart語法中打次方</span></span></span></p>
+<p>A : 可<span>參考 </span><a href="https://api.dartlang.org/stable/2.6.0/dart-math/dart-math-library.html" rel="nofollow">https://api.dartlang.org/stable/2.6.0/dart-math/dart-math-library.html</a><span><span> </span>中的說明</span></p>
 <h1>建置Blog步驟</h1>
 <p><img alt="" height="620" src="/images/3.jpg" width="465"/></p>
-<h1>溫度轉換</h1>
+<h1>Dart按鈕</h1>
 <script>
 function getDart(dirname){
     source = "https://dartpad.github.io/embed-dart.html?gh_owner=40623157&gh_repo=CP2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
@@ -81,5 +114,5 @@ document.getElementById("iframe").height = 600 ;
 <p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40623157&amp;gh_repo=CP2019&amp;gh_path=downloads/dart_ex/for&amp;theme=dark" width="800"></iframe><br/><br/></p>
 <!-- footer -->
 <div class="container">
-<div class="row pt-3 mx-auto"></div>
+<h1 class="row pt-3 mx-auto">SSH操作影片</h1>
 </div>
